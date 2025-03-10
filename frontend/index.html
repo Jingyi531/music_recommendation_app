@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Recommender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Recipe Recommender</h1>
+    <input type="text" id="query" placeholder="Search for recipes (e.g., pasta)">
+    <input type="text" id="diet" placeholder="Diet (e.g., vegetarian)">
+    <input type="text" id="ingredients" placeholder="Ingredients (e.g., tomato,cheese)">
+    <input type="number" id="maxReadyTime" placeholder="Max cooking time (e.g., 30)">
+    <button onclick="searchRecipes()">Search</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
