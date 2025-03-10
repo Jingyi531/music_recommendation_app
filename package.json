@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --config jest.config.mjs",
-    "start": "node netlify/functions/api.js"
+    "start": "node netlify/functions/api.js",
+    "build": "echo 'No build step required'"
+    
   },
   "keywords": [],
   "author": "",
